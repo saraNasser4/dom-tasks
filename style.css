@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cantaner-one {
+    background-color: #ccc;
+    height: 100vh;
+    width: 100dvw;
+}
+
+.emoji {
+    position: absolute;
+    translate: -50% -50%;
+    left: 50%;
+    top: 50%;
+    font-size: 10rem;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.emoji:hover {
+    opacity: 1;
+    scale: 1.3;
+}
+
+.contaner-two {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 172, 255);
+}
+
+.btn-cont button {
+    padding: 15px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}
+
+.purple {
+    background-color: purple;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.black {
+    background-color: black;
+}
+.gray {
+    background-color: gray;
+}
+.tomato {
+    background-color: tomato;
+}
+.wheat {
+    background-color: wheat;
+}
+
+
+.contaner-three {
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contaner-three .panel-contaner {
+    background-color: #1d1c1c;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 60px 40px;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgb(0,0,0,0.3);
+}
+
+.contaner-three .panel-contaner strong {
+    font-size: 1.6rem;
+}
+
+.contaner-three .panel-contaner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.contaner-three .panel-contaner .rating {
+    padding: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contaner-three .panel-contaner .rating:hover,
+.contaner-three .panel-contaner .rating.active {
+    background-color: #3d3c3c;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.contaner-three .btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error {
+    color: rgb(255, 84, 84);
+    text-align: end;
+    display: none;
+}
+
+.container-four {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#74ff8d, #2cff53);
+}
+
+.container-four #insert {
+    background-color: white;
+    border-radius: 4px;
+    padding: 50px 70px;
+    width: 100%;
+    max-width: 470px;
+}
+
+.container-four .key {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container-four .key p{
+    color: white;
+    background: linear-gradient(#2cff53, #74ff8d);
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+
+.container-five {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+}
+
+.container-five .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-five input {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-five .inputs #selectOp {
+    padding: 10px;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.container-five #btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding:10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.container-six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #9263ff;
+}
+
+.container-six .contain{
+    width: 420px;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 3px;
+
+}
+
+.container-six .contain input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #9263ff;
+    border-radius: 3px;
+}
+
+.container-six .contain .todos {
+    margin-top: 2rem;
+}
+
+.container-six .todo {
+    border-left: 4px solid #6727ff;
+    padding: 5px;
+    color: rgb(75,75,75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container-six .delete {
+    cursor: pointer;
+    color:#6727ff;
+}
+
